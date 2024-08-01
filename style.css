@@ -131,3 +131,62 @@ footer{
 .socials a > svg{
     width: 50px;
 }
+
+.authorsList{
+    margin-top: 10px;
+}
+
+.author{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.author img{
+    margin-right: 5px;
+    width: 70px;
+}
+
+.author p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+}
+
+.splitScreen{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.screenshots > *{
+    margin-top: 50px;
+}
+
+.itemAboutLauncher{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.itemAboutLauncher img{
+    width: 50px;
+    padding: 10px;
+    background-color: #292929FF;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.itemAboutLauncher p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+}
